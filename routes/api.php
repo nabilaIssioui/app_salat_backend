@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------|
 */
 
-    Route::get('getPrayers', [PrayerController::class, 'getPrayers'])->name('getPrayers');
+Route::get('/prayer-times', [PrayerController::class, 'getPrayerTimes']);
